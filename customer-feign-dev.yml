@@ -18,7 +18,7 @@ feign:
     enabled: true
 info:
   app:
-   name: "@project.name@"  #从pom.xml中获取,pom.xml中需build中加入插件spring-boot-maven-plugin
+   name: "@project.name@"
    description: "@project.description@"
    version: "@project.version@"
    spring-boot-version: "@project.parent.version@"
